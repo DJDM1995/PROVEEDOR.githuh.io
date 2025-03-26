@@ -20,7 +20,7 @@
             // Contraseña correcta
             if (password === "1234") {  
                 sessionStorage.setItem("accesoPermitido", "true"); // Guarda acceso en la sesión
-                window.location.href = "pagina.html"; // Redirige a la página protegida
+                window.location.href = "https://djdm1995.github.io/PROVEEDOR2.github.io/"; // Redirige a la página protegida
             } else {
                 alert("❌ Contraseña incorrecta. Intenta de nuevo.");
             }
